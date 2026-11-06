@@ -1,0 +1,12 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+
+#number-display {
+  margin: 0;
+  font-size: 4rem;
+  font-family: Verdana, sans-serif;
+}
