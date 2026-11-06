@@ -9,4 +9,4 @@ function display(number){
 const output = document.getElementById("number-display").textContent = number;
 }
 
-display(123);
+display("Hello");
