@@ -1,12 +1,11 @@
-//the goal is to display a specific number on the page using css and stuff
-//idk how to do that :)
-/* Credits:
-
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions 
-
-*/
-function display(number){
-const output = document.getElementById("number-display").textContent = number;
+function name(word){
+    if (word == "TheMaceGoat"){
+        console.log("go away macegoat :(")
+    }
+    else {
+        console.log(`Hello ${word}! how are you today?`)
+    }
 }
 
-display("Hello");
+name("Premiere907");
+name("TheMaceGoat");
